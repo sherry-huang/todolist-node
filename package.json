@@ -1,0 +1,29 @@
+{
+  "name": "toodlist-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node build/server.js",
+    "build": "tsc --project ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/node": "^16.11.6",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mariadb": "^2.5.5",
+    "mysql2": "^2.3.2",
+    "path": "^0.12.7",
+    "sequelize": "^6.8.0"
+  }
+}
